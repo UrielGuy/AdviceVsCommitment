@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Announcment</title>
+    <style>
+        @font-face {
+            font-family: 'Royal';
+            src: url('Royal.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+        }
+        .header img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 3em;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        .story {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+        .story:before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            border: 2px solid #ff7e5f;
+            border-radius: 15px;
+            z-index: -1;
+        }
+        .first-letter {
+            font-size: 3em;
+            color: #ff7e5f;
+            font-family: 'Royal', serif;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: -10px;
+            line-height: 0.8;
+        }
+        .first-letter::first-letter {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .first-letter-frame {
+            border: 2px solid #ccc;
+            border-radius: 2px;
+            padding: 2px;
+        }
+        p {
+            text-align: justify;
+            margin-top: 0;
+            color: #444;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="Airport Announcment.webp" alt="Airport Announcment">
+    <h1 class="title">Airport Announcment</h1>
+</div>
+
+<div class="story">
+<p><span class="first-letter first-letter-frame">*</span>Airport Announcement:*</p></p>
+<p>Attention all passengers and Burning Man enthusiasts. We would like to remind you of an important aspect to consider when interacting with fellow travelers seeking assistance with their projects. Please pay attention to the following announcement to ensure a smooth and enjoyable experience for everyone.</p>
+<p>We kindly request that you offer advice instead of committing to help when approached by fellow passengers seeking assistance with their Burning Man projects. While the spirit of collaboration and community is at the heart of Burning Man, it is important to strike a balance that allows individuals to manage their commitments effectively.</p>
+<p>By providing advice instead of immediate commitment, you allow both parties to gauge their time availability and properly plan their schedules. This approach ensures that everyone can enjoy their Burning Man experience without inadvertently missing their well-deserved vacation time.</p>
+<p>Remember, offering advice and suggestions can still be incredibly helpful to those seeking guidance. It encourages open discussion and provides valuable insights without placing undue burden on your own schedule and commitments.</p>
+<p>We kindly request your cooperation in this matter to maintain the harmony and enjoyment of all passengers. Thank you for your attention, and we wish you a fantastic Burning Man experience.</p>
+<p>Please note that flight departures will continue as scheduled, and boarding announcements will be made when applicable. Thank you for choosing our airport, and we hope you have a pleasant journey.</p>
+</div>
+
+</body>
+</html>

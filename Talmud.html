@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talmud</title>
+    <style>
+        @font-face {
+            font-family: 'Royal';
+            src: url('Royal.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+        }
+        .header img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 3em;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        .story {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+        .story:before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            border: 2px solid #ff7e5f;
+            border-radius: 15px;
+            z-index: -1;
+        }
+        .first-letter {
+            font-size: 3em;
+            color: #ff7e5f;
+            font-family: 'Royal', serif;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: -10px;
+            line-height: 0.8;
+        }
+        .first-letter::first-letter {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .first-letter-frame {
+            border: 2px solid #ccc;
+            border-radius: 2px;
+            padding: 2px;
+        }
+        p {
+            text-align: justify;
+            margin-top: 0;
+            color: #444;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="Talmud.webp" alt="Talmud">
+    <h1 class="title">Talmud</h1>
+</div>
+
+<div class="story">
+<p><span class="first-letter first-letter-frame">T</span>his is what the Talmud has to say about advice vs commitment.</p></p>
+<p>Rabbi Isaac said, "It is better to give advice than to make a commitment, for advice allows for flexibility and freedom."</p>
+<p>Rabbi Levi disagreed, saying, "Commitment shows a stronger sense of responsibility and reliability. It is better to follow through on your word than to simply offer advice."</p>
+<p>Rabbi Isaac countered, "But what if circumstances change? What if the commitment becomes burdensome or unmanageable? Offering advice allows the recipient to consider all options and make the best decision for themselves."</p>
+<p>Rabbi Levi responded, "That may be true, but commitments also have benefits. They can provide structure and accountability, and can lead to a greater sense of accomplishment."</p>
+<p>Rabbi Isaac nodded in agreement, "I see your point, but what about the summer season? It's a time for relaxation and fun. Giving advice allows for more free time to enjoy the warm weather and outdoor activities."</p>
+<p>Rabbi Levi paused to consider this, "I suppose that is true, but it depends on the nature of the commitment or advice. Some commitments may be easily manageable and not interfere with summer plans, while some advice may require significant time and effort to give properly."</p>
+</div>
+
+</body>
+</html>

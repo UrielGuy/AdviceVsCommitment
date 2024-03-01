@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Seuss</title>
+    <style>
+        @font-face {
+            font-family: 'Royal';
+            src: url('Royal.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+        }
+        .header img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 3em;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        .story {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+        .story:before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            border: 2px solid #ff7e5f;
+            border-radius: 15px;
+            z-index: -1;
+        }
+        .first-letter {
+            font-size: 3em;
+            color: #ff7e5f;
+            font-family: 'Royal', serif;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: -10px;
+            line-height: 0.8;
+        }
+        .first-letter::first-letter {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .first-letter-frame {
+            border: 2px solid #ccc;
+            border-radius: 2px;
+            padding: 2px;
+        }
+        p {
+            text-align: justify;
+            margin-top: 0;
+            color: #444;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="Dr Seuss.webp" alt="Dr Seuss">
+    <h1 class="title">Dr Seuss</h1>
+</div>
+
+<div class="story">
+<p><span class="first-letter first-letter-frame">I</span>n the town of Hoboken,</p></p>
+<p>Lived a girl named Elisa, so open.</p>
+<p>She was a helper, that much was true,</p>
+<p>But summer was coming, and she had plans too.</p>
+<p>One sunny day, as she walked by the sea,</p>
+<p>A group of people came running to her, so full of glee.</p>
+<p>"Elisa, Elisa, please help us, we're in need!</p>
+<p>We need your commitment, your time, indeed!"</p>
+<p>Elisa thought for a moment, then said with a smile,</p>
+<p>"I'll give you advice, but I won't walk the mile.</p>
+<p>I have plans for summer, I hope you can see,</p>
+<p>I want to enjoy it, just like you and me."</p>
+<p>The people were surprised, but they understood,</p>
+<p>That Elisa needed time for herself, as she should.</p>
+<p>"Thank you, Elisa, for being so kind,</p>
+<p>Your advice will help us, we won't be far behind!"</p>
+<p>Elisa felt happy, she could enjoy summer,</p>
+<p>And the people were grateful, they didn't feel like a bummer.</p>
+<p>So let this be a lesson to all,</p>
+<p>To be helpful, but also answer your own call.</p>
+<p>Give advice, and enjoy the sun,</p>
+</div>
+
+</body>
+</html>
